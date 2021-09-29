@@ -1,7 +1,7 @@
 from typing import Optional
 
 from fastapi import FastAPI
-from transformers import AutoModelForCausalLM, AutoTokenizer
+from transformers.transformers import AutoModelForCausalLM, AutoTokenizer
 import time
 
 app = FastAPI()
